@@ -1,5 +1,4 @@
 # Dialogflow
-<hr>
 Dialogflow custom payload example for:
 <li>LINE Messenger</li>
   <li>Facebook Messenger</li>
