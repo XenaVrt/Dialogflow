@@ -1,0 +1,35 @@
+{"line":{
+  "type": "template",
+  "altText": "Alternative text. You could change this to whatever do you want.",
+  "template": {
+      "type": "buttons",
+      "thumbnailImageUrl": "SPECIFY_IMAGE_URL",
+      "imageAspectRatio": "rectangle",
+      "imageSize": "cover",
+      "imageBackgroundColor": "SPECIFY_HEX_BACKGROUND_COLOR_FOR_TRANSPARENT_IMAGE",
+      "title": "TITLE",
+      "text": "DESCRIPTION",
+      "defaultAction": {
+          "type": "uri",
+          "label": "SPECIFY_LABEL_FOR_IMAGE_ACTION",
+          "uri": "SPECIFY_URL_FOR_URI_ACTION"
+      },
+      "actions": [
+          {
+            "type": "postback",
+            "label": "SPECIFY_BUTTON_LABEL",
+            "data": "JSON_DATA"
+          },
+          {
+            "type": "message",
+            "label": "SPECIFY_BUTTON_LABEL",
+            "text": "TEXT_MESSAGE_TO_SEND"
+          },
+          {
+            "type": "uri",
+            "label": "SPECIFY_BUTTON_LABEL",
+            "uri": "SPECIFY_URL_FOR_URI_ACTION
+          }
+      ]
+  }
+}}
