@@ -23,7 +23,7 @@
           {
             "type": "message",
             "label": "SPECIFY_BUTTON_LABEL",
-            "text": "TEXT_MESSAGE_TO_SEND"
+            "text": "TEXT_MESSAGE_TO_SEND_BACK"
           },
           {
             "type": "uri",
