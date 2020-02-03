@@ -1,0 +1,25 @@
+{
+  "line": {
+      "type": "flex",
+      "altText": "This is a Flex Message",
+      "contents": {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Hello,",
+              "flex": 5
+            },
+            {
+              "type": "text",
+              "text": "World!",
+              "flex": 5
+            }
+          ]
+        }
+      }
+    }
+}
