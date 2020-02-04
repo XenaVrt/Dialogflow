@@ -10,13 +10,11 @@
           "contents": [
             {
               "type": "text",
-              "text": "Hello,",
-              "flex": 5
+              "text": "Hello,"
             },
             {
               "type": "text",
-              "text": "World!",
-              "flex": 5
+              "text": "World!"
             }
           ]
         }
