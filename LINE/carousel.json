@@ -6,7 +6,6 @@
 			"type": "carousel",
 			"columns": [{
 					"thumbnailImageUrl": "SPECIFY_THE_URL_HERE",
-					"imageBackgroundColor": "SPECIFY_BG_COLOR_FOR_TRANSPARENT_IMAGE",
 					"title": "TITLE",
 					"text": "DESCRIPTION",
 					"defaultAction": {
@@ -14,11 +13,7 @@
 						"label": "SPECIFY_IMAGE_BUTTON_LABEL",
 						"uri": "SPECIFY_THE_URL_HERE"
 					},
-					"actions": [{
-							"type": "postback",
-							"label": "SPECIFY_BUTTON_LABEL",
-							"data": "JSON_DATA_FOR_POSTBACK"
-						},
+					"actions": [
 						{
 							"type": "message",
 							"label": "SPECIFY_BUTTON_LABEL",
@@ -30,11 +25,63 @@
 					"thumbnailImageUrl": "SPECIFY_THE_URL_HERE",
 					"title": "TITLE",
 					"text": "DESCRIPTION",
-					"actions": [{
-							"type": "postback",
+					"defaultAction": {
+						"type": "uri",
+						"label": "SPECIFY_IMAGE_BUTTON_LABEL",
+						"uri": "SPECIFY_THE_URL_HERE"
+					},
+					"actions": [
+						{
+							"type": "message",
 							"label": "SPECIFY_BUTTON_LABEL",
-							"data": "JSON_DATA_FOR_POSTBACK"
-						},
+							"text": "TEXT_MESSAGE_TO_SEND_BACK"
+						}
+					]
+				},
+				    {
+					"thumbnailImageUrl": "SPECIFY_THE_URL_HERE",
+					"title": "TITLE",
+					"text": "DESCRIPTION",
+					"defaultAction": {
+						"type": "uri",
+						"label": "SPECIFY_IMAGE_BUTTON_LABEL",
+						"uri": "SPECIFY_THE_URL_HERE"
+					},
+					"actions": [
+						{
+							"type": "message",
+							"label": "SPECIFY_BUTTON_LABEL",
+							"text": "TEXT_MESSAGE_TO_SEND_BACK"
+						}
+					]
+				},
+				    {
+					"thumbnailImageUrl": "SPECIFY_THE_URL_HERE",
+					"title": "TITLE",
+					"text": "DESCRIPTION",
+					"defaultAction": {
+						"type": "uri",
+						"label": "SPECIFY_IMAGE_BUTTON_LABEL",
+						"uri": "SPECIFY_THE_URL_HERE"
+					},
+					"actions": [
+						{
+							"type": "message",
+							"label": "SPECIFY_BUTTON_LABEL",
+							"text": "TEXT_MESSAGE_TO_SEND_BACK"
+						}
+					]
+				},
+				    {
+					"thumbnailImageUrl": "SPECIFY_THE_URL_HERE",
+					"title": "TITLE",
+					"text": "DESCRIPTION",
+					"defaultAction": {
+						"type": "uri",
+						"label": "SPECIFY_IMAGE_BUTTON_LABEL",
+						"uri": "SPECIFY_THE_URL_HERE"
+					},
+					"actions": [
 						{
 							"type": "message",
 							"label": "SPECIFY_BUTTON_LABEL",
