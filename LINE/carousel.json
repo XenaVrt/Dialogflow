@@ -1,7 +1,7 @@
 {
 	"line": {
 		"type": "template",
-		"altText": "Alternative Text, you can change this to whatever do you want.",
+		"altText": "Alternative Text, you can change this to whatever you want.",
 		"template": {
 			"type": "carousel",
 			"columns": [{
