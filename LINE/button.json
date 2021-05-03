@@ -7,7 +7,7 @@
 			"thumbnailImageUrl": "SPECIFY_IMAGE_URL",
 			"imageAspectRatio": "rectangle",
 			"imageSize": "cover",
-			"imageBackgroundColor": "SPECIFY_HEX_BACKGROUND_COLOR_FOR_TRANSPARENT_IMAGE",
+			"imageBackgroundColor": "OPTIONAL_SPECIFY_HEX_BACKGROUND_COLOR_FOR_TRANSPARENT_IMAGE",
 			"title": "TITLE",
 			"text": "DESCRIPTION",
 			"defaultAction": {
